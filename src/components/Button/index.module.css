@@ -1,0 +1,30 @@
+.btn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px;
+  gap: 5px;
+  background-color: transparent;
+  border: 1px solid #c20909;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #b61414;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 5px;
+}
+
+.btn:hover {
+  transition: 0.3s ease;
+  background-color: #b61414;
+  color: white;
+}
+
+
+.btn:hover svg {
+  transition: 0.3s ease;
+  fill: white;
+}

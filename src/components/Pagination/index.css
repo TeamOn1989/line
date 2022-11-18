@@ -1,0 +1,13 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+}
+
+.pagination__link {
+    color: currentColor;
+    text-decoration: none;
+    padding: 10px 15px;
+}

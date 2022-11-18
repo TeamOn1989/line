@@ -1,0 +1,19 @@
+.header__logo {
+  margin-right: auto;
+}
+
+.registration {
+  width: 25px;
+  fill: #b61414;
+}
+
+.main {
+  padding: 20px 0;
+  flex-grow: 1;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

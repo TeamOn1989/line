@@ -1,0 +1,28 @@
+.modal {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(150, 155, 155, 0.404);
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+
+.modal__content {
+    width: 70vw;
+
+    background-color: antiquewhite;
+    z-index: 20;
+    padding: 15px;
+}
+
+.modal.active {
+    transition: 5s;
+    visibility: visible;    
+}
